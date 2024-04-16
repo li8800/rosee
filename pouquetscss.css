@@ -1,0 +1,125 @@
+h1{
+  color:rgb(201, 106, 150) ;text-align: left;
+  
+}
+h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 28px;
+  color:#74375fbb;
+  text-align: center; 
+  background-color: #ddd0d9bb;
+  line-height: 70px;
+  
+ }
+ body{
+  background-color: rgb(243, 240, 235);
+  margin: 20px;
+  
+}
+
+
+ .input{
+width: 200px;
+height: 40px;
+border :none;
+outline: none ;
+caret-color: (196, 62, 21); 
+background-color: #ddd0d9bb ;
+border-radius: 30px ;
+padding-left: 15px ;
+letter-spacing: 0.8px;
+color: rgb (19, 19, 19);
+font-size :13.4px; 
+position: absolute;
+bottom: 86%;
+left: 43%;
+  }
+
+  .login-btn, .favorite-btn {
+    background-color: #b67294 ;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .login-btn:hover, .favorite-btn:hover {
+    background-color: #492c49;
+  }
+  
+  .fa {
+    margin-right: 5px; 
+  }
+  .login-btn{
+    position: absolute;
+    bottom: 88%;
+    left: 88%;
+  }
+  .favorite-btn {
+    position: absolute;
+    bottom: 88%;
+    left: 80%;
+  }
+.center-text h2  {
+text-align: center;
+font-size: var(--h2-font);
+font-size: large;
+color: #492c49;
+}
+.new-content {
+  width: 100%;
+  display: inline-block;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.row {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  transition: 0.4s ;
+}
+.row img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+.row h4 {
+color: #74375fbb;
+font-weight: bold;
+}
+.row h5 {
+  color: #b67294;
+}
+.items {
+  display: flex;
+}
+
+.footer {
+  background-color: #ddd0d9bb; 
+  color: #74375fbb;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer p {
+  margin: 0;
+}
+/* تصميم للأجهزة الصغيرة مثل الهواتف */
+@media only screen and (max-width: 600px) {
+  /* أضف قواعد CSS هنا لتعديل التصميم للهواتف */
+}
+
+/* تصميم للأجهزة الكبيرة مثل الأجهزة اللوحية */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* أضف قواعد CSS هنا لتعديل التصميم للأجهزة اللوحية */
+}
+
+/* تصميم للأجهزة الكبيرة جدًا مثل الحواسيب */
+@media only screen and (min-width: 1025px) {
+  /* أضف قواعد CSS هنا لتعديل التصميم للحواسيب */
+}

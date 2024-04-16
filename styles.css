@@ -1,0 +1,214 @@
+
+h1,p{
+    background-color: #f8edf4;
+        color: #74375fbb;
+        padding: 10px 20px;
+        text-align: center;
+}
+
+body{
+  background-color: rgb(243, 240, 235);
+
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.navbar {
+  background-color: #ffff;
+  overflow: hidden;
+  color:#f8edf4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Style for the header */
+.header {
+  color: #74375fbb;
+  padding: 14px 20px;
+}
+
+/* Style for the search index */
+.input {
+  width: 200px;
+  height: 40px;
+  border: none;
+  outline: none;
+  caret-color: rgb(196, 62, 21);
+  background-color: rgb(230, 211, 221);
+  border-radius: 30px;
+  padding-left: 15px;
+  letter-spacing: 0.8px;
+  color: rgb(19, 19, 19);
+  font-size: 13.4px;
+  position: absolute;
+  bottom: 92%;
+  left: 43%;
+}
+/* Style for the navigation bar links */
+.navbar a {
+  color: #74375fbb;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+/* Style for the icons */
+.navbar i {
+  margin-right: 5px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #fff4fb;
+  color: #74375fbb;
+}
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navigation {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.navigation a {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: #333;
+}
+
+.navigation a:hover {
+  background-color: #ddd;
+}
+
+
+
+.navigation button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  background-color: #faeaf6;
+  cursor: pointer;
+}
+
+.navigation button:hover {
+  background-color: #ddd;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 25%; /* Adjust this value as needed */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.responsive .gallery {
+  border: 1px solid #ccc;
+  height: 0; /* Ensure the container has some height */
+  padding-bottom: 100%; /* Maintain aspect ratio */
+  position: relative; /* Position child elements relative to this container */
+}
+
+.responsive .gallery img {
+  position: absolute; /* Position the image within its container */
+  width: 100%; /* Take up the full width of the container */
+  height: 100%; /* Take up the full height of the container */
+  object-fit: cover; /* Maintain aspect ratio and fill container */
+}
+
+.responsive .desc {
+  position: absolute; /* Position the description within its container */
+  bottom: 0; /* Align to the bottom */
+  left: 0; /* Align to the left */
+  width: 100%; /* Take up the full width of the container */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  padding: 10px; /* Add padding */
+  box-sizing: border-box; /* Include padding in the element's total width */
+}
+
+.footer {
+  background-color: #ddd0d9bb; 
+  color: #74375fbb;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer p {
+  margin: 0;
+}
+/* تصميم للأجهزة الصغيرة مثل الهواتف */
+@media only screen and (max-width: 600px) {
+  /* أضف قواعد CSS هنا لتعديل التصميم للهواتف */
+}
+
+/* تصميم للأجهزة الكبيرة مثل الأجهزة اللوحية */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* أضف قواعد CSS هنا لتعديل التصميم للأجهزة اللوحية */
+}
+
+/* تصميم للأجهزة الكبيرة جدًا مثل الحواسيب */
+@media only screen and (min-width: 1025px) {
+  /* أضف قواعد CSS هنا لتعديل التصميم للحواسيب */
+}

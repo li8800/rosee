@@ -1,0 +1,99 @@
+h1{
+    color:rgb(201, 106, 150) ;text-align: left;
+    
+}
+.p1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:#74375fbb;
+    text-align: center; 
+    background-color: #ddd0d9bb;
+    line-height: 70px;
+    
+
+}
+
+.pr1{
+    color: #d16fb4;
+    text-align: left;
+    font-size: 20px;
+    text-align: center;
+    border-style: solid solid solid solid;
+    
+   
+}
+body{
+    background-color: rgb(243, 240, 235);
+    margin: 20px;
+    
+}
+.login-btn, .favorite-btn {
+    background-color: #b67294;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .login-btn:hover, .favorite-btn:hover {
+    background-color: #492c49;
+  }
+  
+  .fa {
+    margin-right: 5px; 
+  }
+  .login-btn{
+    position: absolute;
+    bottom: 88%;
+    left: 88%;
+  }
+  .favorite-btn {
+    position: absolute;
+    bottom: 88%;
+    left: 80%;
+  }
+  .input {
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    caret-color: rgb(196, 62, 21);
+    background-color: rgb(218, 193, 193);
+    border-radius: 30px;
+    padding-left: 15px;
+    letter-spacing: 0.8px;
+    color: rgb(19, 19, 19);
+    font-size: 13.4px;
+    position: absolute;
+    bottom: 86%;
+    left: 43%;
+  }
+  .footer {
+    background-color: #ddd0d9bb; 
+    color: #74375fbb;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+/* تصميم للأجهزة الصغيرة مثل الهواتف */
+@media only screen and (max-width: 600px) {
+  /* أضف قواعد CSS هنا لتعديل التصميم للهواتف */
+}
+
+/* تصميم للأجهزة الكبيرة مثل الأجهزة اللوحية */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* أضف قواعد CSS هنا لتعديل التصميم للأجهزة اللوحية */
+}
+
+/* تصميم للأجهزة الكبيرة جدًا مثل الحواسيب */
+@media only screen and (min-width: 1025px) {
+  /* أضف قواعد CSS هنا لتعديل التصميم للحواسيب */
+}
+  
+

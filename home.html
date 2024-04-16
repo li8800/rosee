@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flower Store</title>
+  <link rel="stylesheet" type="text/css" href="home.css" media="all">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+  <button class="login-btn"><i class="fas fa-sign-in-alt"></i> sign in </button>
+  <button class="favorite-btn"><i class="fas fa-heart"></i> Favorite</button>
+    <div class="search-bar">
+        <button class="search-button">&#128269;</button>
+        <input type="text" class="search-input" placeholder="Search...">
+        
+      </div>
+
+    <div class="navbar">
+        <div class="logo">
+          <a href="#" style="font-size: 40px;">Buds </a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Rose.html">Rose</a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="welcome-section">
+        <h1>Welcome to Buds Flower Store</h1>
+        <p>Discover a world of beautiful flowers for every occasion.</p>
+        
+      </div>
+     
+      
+  <div class="offer-section">
+    <img class="offer-image" src="img/f5.jpeg" alt="Offer Image">
+    <p class="offer-discount">Get 20% off on selected flowers!</p>
+  </div>
+      
+      
+      <div class="store-container">
+        <!-- Store items code -->
+      </div>
+
+
+
+      <div class="categories">
+        <div class="category selected" onclick="selectCategory(this)">Roses</div>
+        <div class="category" onclick="selectCategory(this)">Tulips</div>
+        <div class="category" onclick="selectCategory(this)">Lilies</div>
+        <div class="category" onclick="selectCategory(this)">Sunflowers</div>
+      </div>
+
+  <div class="store-container">
+    <div class="store-item">
+      <img src="img/f6.jpeg" alt="Flower 1">
+      <div class="name">Rose</div>
+      <div class="price">120 SAR</div>
+    </div>
+    
+    <div class="store-item">
+      <img src="img/f2.jpeg" alt="Flower 2">
+      <div class="name">Tulip</div>
+      <div class="price">  100 SAR</div>
+    </div>
+    
+    <div class="store-item">
+      <img src="img/f3.jpeg" alt="Flower 3">
+      <div class="name">Lily</div>
+      <div class="price">80 SAR</div>
+    </div>
+    <div class="store-item">
+        <img src="img/f4.jpeg" alt="Flower 3">
+        <div class="name">Lily</div>
+        <div class="price">85 SAR</div>
+      </div>
+
+      <div class="store-item">
+        <img src="img/f3.jpeg" alt="Flower 3">
+        <div class="name">Lily</div>
+        <div class="price">90 SAR</div>
+      </div>
+      <div class="store-item">
+        <img src="img/f4.jpeg" alt="Flower 3">
+        <div class="name">Lily</div>
+        <div class="price">95 SAR</div>
+      </div>
+
+      <div class="store-item">
+        <img src="img/f7.jpeg" alt="Flower 3">
+        <div class="name">Lily</div>
+        <div class="price">  110 SAR</div>
+      </div>
+    
+    <!-- Add more store items here -->
+  </div>
+  
+  
+  <footer class="footer">
+    <p>&copy; 2024 Buds Flower Store. All rights reserved.</p>
+  </footer>
+  <script>
+    // JavaScript code
+    window.addEventListener('DOMContentLoaded', function() {
+      // Get references to the store items
+      const storeItems = document.querySelectorAll('.store-item');
+      
+      // Add event listener to each store item for click
+      storeItems.forEach(function(item) {
+        item.addEventListener('click', function() {
+          // Get the name and price of the clicked item
+          const name = item.querySelector('.name').textContent;
+          const price = item.querySelector('.price').textContent;
+          
+          // Display the clicked item's details in an alert
+          alert(`You selected ${name} priced at ${price}`);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
